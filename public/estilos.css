@@ -1,0 +1,24 @@
+:root {
+    --main-color: #FFE44E;
+    --second-color: #0E00B2;
+}
+
+.container {
+    box-sizing:border-box;
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+    background: var(--main-color);
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    background: var(--second-color);
+    transition: all .5s;
+}

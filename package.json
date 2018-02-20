@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "comando-voz",
+  "version": "0.0.1",
+  "description": "proyecto para probar api de comandos de voz -- Just for fun!",
+  "main": "server.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
